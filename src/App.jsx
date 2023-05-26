@@ -15,7 +15,7 @@ function App() {
             <label className="mt-5">
               Describe your dream dog below 🐾
               <textarea
-                className="mt-2 textarea"
+                className="mt-2 textarea txtarea"
                 name="breedDescription"
                 cols="30"
                 rows="10"

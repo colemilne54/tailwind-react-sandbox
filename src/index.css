@@ -110,6 +110,28 @@ a {
   }
 }
 
+/* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  .txtarea {
+    scrollbar-width: 8px;
+    scrollbar-color: #3b82f6 #818283;
+  }
+
+  /* Chrome, Edge, and Safari */
+  .txtarea::-webkit-scrollbar {
+    width: 8px;
+  }
+
+  .txtarea::-webkit-scrollbar-track {
+    background: #818283;
+  }
+
+  .txtarea::-webkit-scrollbar-thumb {
+    background-color: #3b82f6;
+    border-radius: 1000px;
+    border: 3px none #000000;
+  }
+
 /* .btn {
   background: rgba(0, 197, 255, 0.25);
   border-radius: 16px;

@@ -15,14 +15,14 @@ function App() {
             <label className="mt-5">
               Describe your dream dog below 🐾
               <textarea
-                className="mt-2"
+                className="mt-2 textarea"
                 name="breedDescription"
                 cols="30"
                 rows="10"
                 placeholder="Breed Description..."
               ></textarea>
             </label>
-            <button className="rounded-full" type="submit">
+            <button className="bg-blue-500 hover:bg-blue-400 text-white font-bold py-2 px-4 border-b-4 border-blue-700 hover:border-blue-500 rounded-full" type="submit">
               Submit
             </button>
           </form>

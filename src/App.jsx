@@ -11,7 +11,7 @@ function App() {
 
         <div className={styles.center}>
           <h1 className="text-3xl font-bold">BreedFinderAI</h1>
-          <form>
+          <form className="content-center items-center">
             <label className="mt-5">
               Describe your dream dog below 🐾
               <textarea

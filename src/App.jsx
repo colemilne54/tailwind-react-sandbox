@@ -8,7 +8,6 @@ function App() {
   return (
     <>
       <main className={styles.main}>
-        <div className={styles.description}></div>
 
         <div className={styles.center}>
           <h1 className="text-3xl font-bold">BreedFinderAI</h1>
@@ -29,7 +28,6 @@ function App() {
           </form>
         </div>
 
-        <div className={styles.grid}></div>
       </main>
     </>
   );
